@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+    cursor: default;
+}
+
+.contUp {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.up {
+    position: fixed;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px black;
+    background-image: url("images/Red_Arrow_Head_Top-2-512.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+    z-index: 2;
+    display: none;
+}
+
+.imgBox {
+    background-image: url("images/a0f40808a73560d1a66e6e99fdc33826.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 192, 203, 0.3);
+    background-blend-mode: overlay;
+    margin-top: -200px;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    z-index: 0;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    position: fixed;
+    transition: .5s ease;
+    background-color: transparent;
+    z-index: 10;
+}
+
+
+.barBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    z-index: 1;
+}
+
+.rightBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 100px;
+    gap: 30px;
+    z-index: 10;
+}
+
+.leftBar img {
+    width: 3%;
+}
+
+.leftBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 100px;
+    z-index: 10;
+    gap: 5px;
+}
+
+.barText:hover {
+    border-bottom: 2px solid orange;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.mainText {
+    display: flex;
+    align-self: flex-end;
+    font-size: 200px;
+    position: absolute;
+    z-index: 10;
+    font-family: 'Balqis', sans-serif;
+    margin-bottom: 20px;
+}
+
+.underText {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 30%;
+    position: absolute;
+    z-index: 10;
+    height: 20px;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.space {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 600px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    align-self: flex-end;
+}
+
+.text p {
+    align-self: flex-end;
+    font-size: 80px;
+    font-family: 'Balqis', sans-serif;
+    color: #E2AB3F;
+    cursor: default;
+}
+
+.text h2 {
+    position: absolute;
+    font-size: 18px;
+    align-self: flex-end;
+    width: 21%;
+    height: 11%;
+    margin-left: 23%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.fairyTail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    justify-content: space-between;
+}
+
+.imgFT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 85%;
+    background-image: url("images/Rectangle 19.png");
+}
+
+.imgCT {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    background-image: url("images/Rectangle 22.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btnLeftFT, .btnRightFT, .btnLeftCT, .btnRightCT {
+    border: 2px solid #E2AB3F;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    height: 200px;
+    width: 60px;
+    background-color: rgba(255, 166, 71, 0.5);
+}
+
+.textFT {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 38%;
+    height: 85%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+.textCenter {
+    font-weight: 600;
+}
+
+.curTrip {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1200px;
+}
+
+.textCT {
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+    height: 20%;
+    font-family: 'Balqis', sans-serif;
+}
+
+.textCT h1 {
+    align-items: centerx;
+    font-size: 100px;
+    font-weight: 300;
+    color: #E2AB3F;
+}
+
+.textCT h2 {
+    position: absolute;
+    align-self: flex-end;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    width: 2%;
+    height: 6%;
+}
+
+.underTextCT {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 30%;
+    height: 148.3%;
+    position: absolute; 
+}
+
+.space2 {
+    width: 100%;
+    height: 20%;
+}
+
+.underTextCT p {
+    font-size: 20px;
+    width: 43%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+.underTextCT l {
+    font-size: 20px;
+    width: 43%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+.btnCT {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: white;
+    border: 1px solid #E2AB3F;
+    width: 44%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hotelTextCont {
+    width: 100%;
+    height: 400px;
+}
+
+.textHotel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+}
+
+.textHotel h1 {
+    font-family: 'Balqis', sans-serif;
+    font-size: 100px;
+    height: 1%;
+    color: #E2AB3F;
+    font-weight: 300;
+}
+
+.textHotel h2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    width: 50%;
+    height: 12%;
+}
+
+.imgHCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    gap: 5%;
+}
+
+.imgH {
+    background-image: url("images/Rectangle\ 24.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    height: 100%;
+}
+
+.textH {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    justify-content: space-between;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+.underImgH {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 20px;
+    width: 100%;
+    height: 40%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Balqis', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: #e7a12f;
+    margin: 0;
+    margin-top: 10%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.included, .notIncluded {
+    width: 45%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;    
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.datePrice p2 {
+    text-align: center;
+    color: #E2AB3F;
+    font-size: 100px;
+    font-family: 'Balqis', sans-serif;
+    font-weight: 300;
+}
+
+.datePrice p {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    align-items: flex-start;
+    width: 60%;
+    margin-top: -4%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.datePrice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20%;
+}
+
+.formSection h3, form{
+    width: 50%;
+    font-family: "Roboto Condensed", sans-serif;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formSection h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+input {
+    display: block;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid #E2AB3F;
+}
+
+.btnBid {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid #E2AB3F;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+button:hover {
+    background-color: #d1891e;
+    color: white;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+.img55 {
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 40%;
+}
+
