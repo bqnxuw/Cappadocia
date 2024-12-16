@@ -470,3 +470,10 @@ button:hover {
     margin-left: 40%;
 }
 
+.footer {
+    width: 100%;
+    height: 800px;
+    background-image: url('images/Контакты.png');
+    background-size: cover;
+    margin-top: 20%;
+}
